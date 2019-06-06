@@ -95,7 +95,6 @@ p {
 #image_container {
     position: relative;
     width: 960px;
-    align-content: center;
 }
 
 #image_title1 {
@@ -200,4 +199,107 @@ footer {
     text-align: center;
     background-color: #666666;
     padding-top: 30px;
+}
+
+@media only screen and (max-width:980px){
+    header{
+        width: 980px;
+        margin-left: 0px;
+        margin-right:0px;
+    }
+    
+    h1{
+        margin-left: 30px;
+    }
+
+    ul{
+        margin-right: 250px;
+    }
+
+    main{
+        width: 980px;
+    }
+
+    section{
+        margin-left: 30px;
+        width: 535px;
+    }
+
+    #image_container{
+        width: 535px;
+    }
+
+    #image_title3{
+        top: 370px;
+        left: 20px;
+    }
+
+    #image_title4{
+        top: 370px;
+        left: 289.4px;
+    }
+
+    #image_title5{
+        top: 580px;
+        left: 20px;
+    }
+
+    footer{
+        width: 980px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    header{
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 768px;
+    }
+    h1{
+        margin-left: 15px;
+    }
+
+    ul{
+        margin-right: 15px;
+    }
+
+    section{
+        margin-left: 15px;
+        width: 736px;
+    }
+
+    #image_container{
+        width: 736px;
+    }
+
+    #image_position{
+        margin: 20px 70px 20px 70px;
+    }
+
+    #image_title1{
+        left: 70px;
+    }
+
+    #image_title2{
+        left: 439px;
+    }
+
+    #image_title3{
+        top: 380px;
+        left: 70px;
+    }
+
+    #image_title4{
+        top: 380px;
+        left: 439px;
+    }
+
+    #image_title5{
+        top: 599px;
+        left: 70px;
+    }
+
+    footer{
+        width: 768px;
+    }
 }
