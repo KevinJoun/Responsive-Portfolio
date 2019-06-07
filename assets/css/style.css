@@ -309,6 +309,9 @@ footer {
 }
 
 @media only screen and (max-width:640px){
+    main{
+        width: 640px;
+    }
     header{
         width: 640px;
         margin: 0;
@@ -322,5 +325,20 @@ footer {
     }
     ul {
         float: none;
+        margin: 0;
+        display: block;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    section{
+        width: 620px;
+        margin-left:10px;
+        margin-right: 10px;
+    }
+
+    footer{
+        width: 640px;
     }
 }
